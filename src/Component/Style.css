@@ -1,0 +1,108 @@
+ /* Change background color of the navbar */
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.custome-container{
+  max-width: 100%;
+  max-height: 100%;
+  height: 100vh;
+}
+ .navbar-brand {
+   font-weight: bold;
+   color: white;
+ }
+
+ .custom-navbar {
+   background-color: #40e8f1ec;
+ }
+
+ /* Add spacing to each nav-item */
+ .custom-navbar .navbar-nav .nav-item {
+   margin-left: 15px;
+   margin-right: 15px;
+   /* Adjust the spacing as needed */
+ }
+
+ /* Change the color of the links in the navbar */
+ .custom-navbar .navbar-nav .nav-link {
+   color: #fff;
+   /* Change this to your desired text color */
+ }
+
+ .img {
+   border-color: aquamarine;
+   height: 40px;
+   width: 60px;
+ }
+
+ .custom-footer {
+   background-color: #40e8f1ec;
+   color: white;
+   font-weight: bold;
+   bottom:0;
+   width: 100%;
+   height: 50px;
+ }
+
+ .custome-home {
+   font-family: 'Times New Roman', Times, serif;
+   text-align: center;
+   min-height: 82vh;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   color: rgb(231, 22, 64);
+ }
+
+ .App-logo {
+   width: 150vh;
+   height: 55vh;
+   pointer-events: none;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+ }
+ .con{
+  padding-left: 20px;
+  padding-right: 20px;
+  min-height: 82vh;
+ }
+
+ .centered-table-pagination{
+  background-color: #97f0e4;
+  justify-content: center;
+
+ }
+ .table-footer{
+  justify-content: center;
+ }
+
+ .edit-form-container {
+  background-color: #fff; /* Background color for the edit form */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); /* Box shadow for the edit form */
+  z-index: 2;
+}
+.modal-overlay{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.col-form-label{
+  margin-right: 20%;
+}
+.table-label{
+  margin-right: 10px;
+}
+
+.error{
+  color: red;
+}
