@@ -7,7 +7,7 @@ The **Contact Manager Portal** is a web application designed to manage customer 
 ## 🖼️ Screens
 
 ### 1. Home Screen
-![Home Screen](./iMAGE/HOMEPAGE.png)
+![Home Screen](./iMAGEs/HOMEPAGE.png)
 
 ### 2. Add New Contact Screen
 Allows users to input and save new contact details.
